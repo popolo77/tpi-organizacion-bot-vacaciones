@@ -1,2 +1,3 @@
-cc21bfd (HEAD -> master) TPI-2: agregar pruebas y documentación de coherencia
+015e905 (HEAD -> main) TPI-3: registrar historial local de commits
+cc21bfd TPI-2: agregar pruebas y documentación de coherencia
 d6a989d TPI-1: estructura inicial del bot de vacaciones
