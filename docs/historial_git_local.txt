@@ -1,0 +1,2 @@
+cc21bfd (HEAD -> master) TPI-2: agregar pruebas y documentación de coherencia
+d6a989d TPI-1: estructura inicial del bot de vacaciones
