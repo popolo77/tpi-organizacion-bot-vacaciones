@@ -58,3 +58,23 @@ Resultado: RECHAZADA
 ## Seguridad
 
 No se incluye ningún Personal Access Token (PAT), contraseña ni credencial en el repositorio. Si se usa un PAT para subir a GitHub, debe ingresarse solo como contraseña de autenticación y nunca guardarse en archivos o capturas.
+
+## Manual de usuario rápido
+
+1. Ejecutar el programa principal:
+
+```bash
+python main.py
+```
+
+2. Ingresar el legajo cuando el bot lo solicite. El legajo debe existir en `datos/empleados.csv`.
+3. Ingresar fecha de inicio y fecha de fin con formato `AAAA-MM-DD`.
+4. El bot valida las fechas, calcula los días solicitados y compara contra el saldo disponible.
+5. El resultado se registra en `datos/solicitudes.csv` como `APROBADA` o `RECHAZADA`.
+
+### Errores contemplados
+
+- Legajo inexistente.
+- Fecha con formato incorrecto.
+- Fecha de fin anterior a fecha de inicio.
+- Saldo de vacaciones insuficiente.
