@@ -1,0 +1,5 @@
+Control de coherencia:
+- BPMN AS-IS: documenta el proceso manual.
+- BPMN TO-BE: representa el flujo automatizado del bot.
+- main.py: implementa validaciones, estados y registro en CSV.
+- pruebas/: evidencia camino feliz e infeliz.
