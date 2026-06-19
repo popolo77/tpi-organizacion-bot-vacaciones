@@ -1,0 +1,26 @@
+============================================
+ BOT RRHH - SOLICITUD DE VACACIONES
+============================================
+Bienvenido/a. Este asistente simula la gestión de vacaciones.
+
+[Estado] INICIO: inicio de la solicitud
+
+[Estado] ESPERA_LEGAJO: se espera el legajo del empleado
+Ingrese su número de legajo: 
+[Estado] VALIDA_EMPLEADO: se valida el legajo contra empleados.csv
+Empleado validado: Ana Gomez - Sector: Administracion
+Días disponibles: 5
+
+[Estado] ESPERA_FECHAS: se esperan fecha de inicio y fecha de fin
+Ingrese fecha de inicio (AAAA-MM-DD): Ingrese fecha de fin (AAAA-MM-DD): 
+[Estado] VALIDA_FECHAS: se valida formato y orden cronológico
+Días solicitados: 10
+
+[Estado] DECIDE_SALDO: se compara lo solicitado contra el saldo disponible
+Solicitud rechazada por saldo insuficiente.
+
+[Estado] REGISTRA: se registra el resultado en solicitudes.csv
+Resultado guardado en datos/solicitudes.csv
+
+[Estado] FIN: fin del proceso
+Proceso finalizado.
