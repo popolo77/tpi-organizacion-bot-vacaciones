@@ -1,3 +1,5 @@
-015e905 (HEAD -> main) TPI-3: registrar historial local de commits
+d42cb6e (HEAD -> main) Agregar manual de usuario y evidencias de IA
+49a0dc7 TPI-4: actualizar historial tras renombrar rama main
+015e905 TPI-3: registrar historial local de commits
 cc21bfd TPI-2: agregar pruebas y documentación de coherencia
 d6a989d TPI-1: estructura inicial del bot de vacaciones
